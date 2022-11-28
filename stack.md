@@ -1,10 +1,4 @@
-<!--- 👋 Hi, I’m @moscarelloscott
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-
+<!---
 moscarelloscott/moscarelloscott is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
@@ -17,8 +11,39 @@ You can click the Preview link to take a look at your changes.
 
 ### 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
     *Stack Introduction
-    *Stack Example code
+		 Python Stacks what are stacks? Imagine a can of three tennis balls, the first one you put in goes to the bottom
+		 then the second and finally the third.
+		 Now if you want to get the first ball out of the can you will need to remove the third,
+		 then the second and finally the first. 
+		 This is the idea of how stack works.
+		 We append an object into the stack one at a time on top of eachother,
+		 then if we want to remove an object we can only remove (pop) the object on top of the stack,         
+		 this can be done multiple times until the object we want is reached or the stack is empty.
+
+    *Stack Example code    
+~~~Python
+def one():
+  global cont
+          print("Stack Coding")
+          stackTutoral = []
+          print("with an empty array nothing will print")
+          print(stackTutoral)
+          print("by using append we will insert the number 1 into the array")
+          stackTutoral.append(1)
+          print(stackTutoral)
+          print("again using append to insert the number 2")
+          stackTutoral.append(2)
+          print(stackTutoral)
+          print("using pop we can remove the last object in the array")
+          stackTutoral.pop()
+          print(stackTutoral)
+          cont = input("press enter to return to main menu")
+          start()        
+~~~
+    
     *Stack Problem to solve
+    rewrite the code with the user being able to input 3 numbers of their choice
+    
 
 ### 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
     *linked list Introduction
@@ -30,4 +55,4 @@ You can click the Preview link to take a look at your changes.
     *Binary Tree Example code
     *Binary Tree Problem to solve
 
-[VIDEO](https://moscarelloscott.github.io/project/index.html)
+[VIDEO](404)
