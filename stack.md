@@ -15,7 +15,7 @@ You can click the Preview link to take a look at your changes.
     *Introduction
     *Contact
 
-### 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)
+### 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
     *Stack Introduction
     *Stack Example code
     *Stack Problem to solve
