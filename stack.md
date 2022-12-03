@@ -33,7 +33,7 @@ You can click the Preview link to take a look at your changes.
 		 If we wish to remove an object, we need to follow the same structure except changing
 		 append to pop and leaving the parentheses empty IE: arrayName.pop()
 
-    *Stack Example code    
+    *Stack interger Example code    
 ~~~Python
           print("Stack Coding")
           stackTutoral = []
@@ -51,9 +51,19 @@ You can click the Preview link to take a look at your changes.
           cont = input("press enter to return to main menu")
           start()        
 ~~~
-    
+    *Stack string example code
+~~~Python
+	    stackString = []
+	    print("enter a word: ")
+	    a = input()
+	    print("enter a word: ")
+	    b = input()
+	    stackString.append(a + b)
+	    print(stackString)
+~~~    
     *Stack Problem to solve
-    rewrite the code with the user being able to input 3 numbers of their choice
+    rewrite the int code with the user being able to input 3 numbers of their choice.
+    rewrite the string code to output "Python is Great"
     
 
 ### 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
