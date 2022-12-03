@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 		 which can pull from any place in their array.
 		 So,stack is best used when we want to maintain an organized directional flow.
 		 stack is a great method for backtracking step by step from the end to the beginning.
-	How do we ad and remove objects?
+	How do we add and remove objects?
 		 The push operation is used to add objects by using the append command
 		 The pop operation is used to remove the last object entered into the stack by using
 		 the pop command.
