@@ -22,6 +22,9 @@ You can click the Preview link to take a look at your changes.
 
 ### 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
     *linked list Introduction
+         Linked list are a linear structure that forms a chain, unlike the stack method 
+         any linked list node can be accessed without the need to pop or remove the last node inputted
+         this makes the linked list faster than stack and pehaps better for larger databases.
     *linked list Example code
     *linked list Problem to solve
 
