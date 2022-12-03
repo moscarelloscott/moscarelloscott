@@ -3,7 +3,7 @@ moscarelloscott/moscarelloscott is a ✨ special ✨ repository because its `REA
 You can click the Preview link to take a look at your changes.
 --->
  
-### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)  3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
+### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)  3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md) 4. [Binary Tree](https://github.com/moscarelloscott/moscarelloscott/blob/main/binarytree.md)
 # 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
  ## *Stack Introduction
 	Python Stacks what is stack?
@@ -63,15 +63,5 @@ You can click the Preview link to take a look at your changes.
     rewrite the int code with the user being able to input 3 numbers of their choice.
     rewrite the string code to output "Python is Great"
     
-
-### 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
-    *linked list Introduction
-    *linked list Example code
-    *linked list Problem to solve
-
-### 4. [Binary Tree](https://github.com/moscarelloscott/moscarelloscott/blob/main/binarytree.md)
-    *Binary Tree Introduction
-    *Binary Tree Example code
-    *Binary Tree Problem to solve
 
 [VIDEO](404)
