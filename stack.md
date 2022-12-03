@@ -35,8 +35,6 @@ You can click the Preview link to take a look at your changes.
 
     *Stack Example code    
 ~~~Python
-def one():
-  global cont
           print("Stack Coding")
           stackTutoral = []
           print("with an empty array nothing will print")
