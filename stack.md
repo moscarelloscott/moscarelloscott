@@ -2,10 +2,8 @@
 moscarelloscott/moscarelloscott is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-# Python CSE212 Final Project - Outline 
-## *Python Tutorial*
-
-### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)
+ 
+### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)  3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
 # 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
  ## *Stack Introduction
 	Python Stacks what is stack?
