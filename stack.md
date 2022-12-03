@@ -9,24 +9,30 @@ You can click the Preview link to take a look at your changes.
     *Introduction
     *Contact
 
-### 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
-    *Stack Introduction
-		 Python Stacks what is stack?
+# 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
+ ## *Stack Introduction
+	Python Stacks what is stack?
 		 To start with it is a linear array structure of nodes stacked on top of each other that 
 		 operate in the last in first out pattern or LIFO
 		 Imagine a can of three tennis balls, the first one you put in goes to the bottom
 		 then the second and finally the third.
 		 Now if you want to get the first ball out of the can you will need to remove the third,
 		 then the second and finally the first. 
-		 How do we ad and remove objects?
+	Why do we use stack?
+		 Stack is the easier and more simple method to hold data out of the three example we are 
+		 working with in this tutorial, it has a strict organizational ttern that must be follow 
+		 and cannot pull objects from the bottom or middle of the stack unlike the other methods 
+		 which can pull from any place in their array.
+		 So,stack is best used when we want to maintain an organized directional flow.
+	How do we ad and remove objects?
 		 The push operation is used to add objects by using the append command
 		 The pop operation is used to remove the last object entered into the stack by using
 		 the pop command.
 		 In the example code we have an array called stackTutoral that starts out empty, to push
 		 an object into this array we need to first use the arrays name followed by a period 
 		 then the command to append and finally the object inside parentheses we want to enter
-		 for example: arrayName.append(object desiered)
-		 If we wish to remove an object we need to follow the same structure except changing 
+		 for example: arrayName.append(object desired)
+		 If we wish to remove an object, we need to follow the same structure except changing
 		 append to pop and leaving the parentheses empty IE: arrayName.pop()
 
     *Stack Example code    
