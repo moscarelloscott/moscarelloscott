@@ -6,9 +6,6 @@ You can click the Preview link to take a look at your changes.
 ## *Python Tutorial*
 
 ### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)
-    *Introduction
-    *Contact
-
 # 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
  ## *Stack Introduction
 	Python Stacks what is stack?
