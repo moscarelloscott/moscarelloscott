@@ -64,6 +64,7 @@ You can click the Preview link to take a look at your changes.
     *Stack Problem to solve
     rewrite the int code with the user being able to input 3 numbers of their choice.
     rewrite the string code to output "Python is Great"
+    Remember to push you write an append statement and pop is still pop
     
 
 [VIDEO](404)
