@@ -20,8 +20,13 @@ You can click the Preview link to take a look at your changes.
          
          Each node will have two seperate values, the value which hold the array object 
          and the second part is the pointer which points to the next node within the linked list.
+         When the pointer has no nodes left to point at it will return a null.
+         Here is an image of a singly linked list which can only travel in one direction:
   <img src="images/LinkedList1.png" width="75%" height="25%">
-     
+  
+         Doubly Linked List can travel in both directions having a pointer on both sides of the arrray object.
+   <img src="images/DoublyLinkedList.png" width="75%" height="25%">
+  
     *linked list Example code
     *linked list Problem to solve
 
