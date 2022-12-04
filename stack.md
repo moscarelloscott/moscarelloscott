@@ -13,6 +13,8 @@ You can click the Preview link to take a look at your changes.
 		 then the second and finally the third.
 		 Now if you want to get the first ball out of the can you will need to remove the third,
 		 then the second and finally the first. 
+ <img src="images/stackImg.png" width="25%" height="25%">
+ 
 	Why do we use stack?
 		 Stack is the easier and more simple method to hold data out of the three example we are 
 		 working with in this tutorial, it has a strict organizational ttern that must be follow 
