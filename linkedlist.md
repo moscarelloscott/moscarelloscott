@@ -18,7 +18,10 @@ You can click the Preview link to take a look at your changes.
          any linked list node can be accessed without the need to pop or remove the last node inputted
          this makes the linked list faster than stack and pehaps better for larger more complexed databases.
          
-         Each node will have two seperate values, the value which hold the array object and the second part is the pointer which points to the next node within the linked list.
+         Each node will have two seperate values, the value which hold the array object 
+         and the second part is the pointer which points to the next node within the linked list.
+  <img src="images/LinkedList1.png" width="75%" height="25%">
+     
     *linked list Example code
     *linked list Problem to solve
 
