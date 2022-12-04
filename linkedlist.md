@@ -25,6 +25,9 @@ You can click the Preview link to take a look at your changes.
   <img src="images/LinkedList1.png" width="75%" height="25%">
   
          Doubly Linked List can travel in both directions having a pointer on both sides of the arrray object.
+         each nod will have the data field and not one but two pointers called next and prev, next will continue
+         moving forward in the same direction as the singly Linked List where prev will move in the oppistie 
+         direction back towards the head. In either direction when we reach an empty spce we get null.
    <img src="images/DoublyLinkedList.png" width="75%" height="25%">
   
     *linked list Example code
