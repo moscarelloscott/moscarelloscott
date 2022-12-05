@@ -82,10 +82,10 @@ You can click the Preview link to take a look at your changes.
 	   of E4 
 	   
 Here is a chart to help you
---------------------------
+--------------------------                                              
 Type      | Rank     | Title
 --------- | -------- | ------
-Start     | E1       | Pvt
+Start     | E1       | Pvt                                               
 Promotion | E?       | PFC
 Promotion | E?       | LCpl
 Promotion | E?       | Cpl
