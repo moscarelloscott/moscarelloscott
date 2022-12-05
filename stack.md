@@ -94,7 +94,8 @@ input     | E?       |
 input     | E?       |
 Demotion  | E4       |
 		
-	  Was it too easy? try to add Joe's name to the output and maybe make a string stack to output Joe's name + rank + title 
+	  Was it too easy? try to add Joe's name to the output and maybe make a string stack to 
+	  output Joe's title + name + rank IE: Pvt Joe E1
 	  here is a clue for the rank title E5 = Sgt
 
     
