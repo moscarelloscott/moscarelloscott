@@ -50,7 +50,7 @@ You can click the Preview link to take a look at your changes.
           stackTutoral.pop()
           print(stackTutoral)
           cont = input("press enter to return to main menu")
-          start()        
+                 
 ~~~
     *Stack string example code
 ~~~Python
