@@ -16,10 +16,11 @@ You can click the Preview link to take a look at your changes.
  <img src="images/stackImg.png" width="75%" height="25%">
  
 	Why do we use stack?
-		 Stack is the easier and more simple method to hold data out of the three example we are 
-		 working with in this tutorial, it has a strict organizational ttern that must be follow 
-		 and cannot pull objects from the bottom or middle of the stack unlike the other methods 
-		 which can pull from any place in their array.
+		 Stack operates at O(1) on the big O scale making it very time efficient compared to a 
+		 slower typical array as well as is the easier and more simple method to hold data out 
+		 of the three example we are working with in this tutorial, it has a strict organizational 
+		 pattern that must be follow and cannot pull objects from the bottom or middle of the stack 
+		 unlike the other methods which can pull from any place in their array.
 		 So,stack is best used when we want to maintain an organized directional flow.
 		 stack is a great method for backtracking step by step from the end to the beginning.
 	How do we add and remove objects?
@@ -62,9 +63,28 @@ You can click the Preview link to take a look at your changes.
 	    print(stackString)
 ~~~    
     *Stack Problem to solve
-    rewrite the int code with the user being able to input 3 numbers of their choice.
-    rewrite the string code to output "Python is Great"
-    Remember to push you write an append statement and pop is still pop
+           In the military soldiers start at a low rank of E1 and slowly get promoted to 
+	   E2, E3 and so on until E9.
+	   Over time and achievements the soldier can earn the next higher rank 
+	   and likewise from mistakes they can also lose a rank. Stacks would work great
+	   for pushing the higher rank or popping the soldier rank down one level. Stacks
+	   would help prevent an error of promoting or demoting too many levels
+	   at one time in this example.
+	   
+	   For your stack problem you will create a program to show the current rank of Joe.
+	   The stack code must start at E1 and run each promotion or demotion until the end 
+	   result is achieved.so if joe reached an E7 status but was demoted one time the
+	   final result would be E6 (E1 E2 E3 E4 E5 E6 E7 E6)
+	   ---Here is your problem---
+	   Joe was promoted from E1 to E3 after bootcamp, then he earn another promotion before
+	   being demoted back to an E3, after a year he earn back his E4 and finally reached an E5
+	   before being demoted again. Push and Pop each rank change until you reach the final output
+	   of E4
+	   
+	   Rank|
+	   ----|
+	    e1 |
+
     
 
 [VIDEO](404)
