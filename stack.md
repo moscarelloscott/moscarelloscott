@@ -81,13 +81,18 @@ You can click the Preview link to take a look at your changes.
 	   before being demoted again. Push and Pop each rank change until you reach the final output
 	   of E4
 	   
-	   
-	   Type      | Rank     | header 3
-           --------- | -------- | --------
-           Start     | E1       | value 31
-           Promotion | E2       | value 32
-           Promotion | E3       | value 33
-	   Demotion  | E2       | Value 34
+Here is a chart to help you
+--------------------------
+Type      | Rank     
+--------- | -------- 
+Start     | E1       
+Promotion | E?      
+Promotion | E?      
+Demotion  | E?  
+input     | E?
+input     | E?
+input     | E?
+Demotion  | E4
 
     
 
