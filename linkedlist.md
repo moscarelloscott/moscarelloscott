@@ -12,7 +12,7 @@ You can click the Preview link to take a look at your changes.
 
 ### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md) 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)  4. [Binary Tree](https://github.com/moscarelloscott/moscarelloscott/blob/main/binarytree.md)
     
-### 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
+## 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
     *linked list Introduction
          Linked list are a linear structure that forms a chain, unlike the stack method 
          any linked list node can be accessed without the need to pop or remove the last node inputted
@@ -31,6 +31,17 @@ You can click the Preview link to take a look at your changes.
          moving forward in the same direction as the singly Linked List where prev will move in the oppistie 
          direction back towards the head. In either direction when we reach an empty space we get null.
    <img src="images/DoublyLinkedList.png" width="75%" height="25%">
+  
+ Efficiency of Linked list Operations
+---------------------------------------------------------------------------
+   
+   Operation                        | Singly Linked List | Doubly Linked List
+----------------------------------- | ------------------ | -----------------
+Access an element                   | O(n)               | value 31
+Add/remove at an interator position | O(1)               | value 32
+Add/remove first element            | O(1)               | value 33
+Add last element                    | O(1)               | value 33
+Remove last element                 | O(n)               | value 33
   
     *linked list Example code
     *linked list Problem to solve
