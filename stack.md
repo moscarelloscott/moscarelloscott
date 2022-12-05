@@ -36,21 +36,20 @@ You can click the Preview link to take a look at your changes.
 
     *Stack interger Example code    
 ~~~Python
-          print("Stack Coding")
-          stackTutoral = []
-          print("with an empty array nothing will print")
-          print(stackTutoral)
-          print("by using append we will insert the number 1 into the array")
-          stackTutoral.append(1)
-          print(stackTutoral)
-          print("again using append to insert the number 2")
-          stackTutoral.append(2)
-          print(stackTutoral)
-	  print("use str(stackTutoral[-1] to get the last object entered into the stack = " + str(stackTutoral[-1]))
-          print("using pop we can remove the last object in the array")
-          stackTutoral.pop()
-          print(stackTutoral)
-          cont = input("press enter to return to main menu")
+            print("Stack Coding")
+	    stackTutoral = []
+	    print("with an empty array nothing will print")
+	    print(stackTutoral)
+	    print("by using append we will insert the number 1 into the array")
+	    stackTutoral.append(1)
+	    print(stackTutoral)
+	    print("again using append to insert the number 2")
+	    stackTutoral.append(2)
+	    print("This is the full array" + str(stackTutoral))
+	    print("use str(stackTutoral[-1] to get the last object entered into the stack = " + str(stackTutoral[-1]))
+	    print("Now, using pop we can remove the last object in the array")
+	    stackTutoral.pop()
+	    print(stackTutoral)
                  
 ~~~
     *Stack string example code
