@@ -6,7 +6,7 @@ You can click the Preview link to take a look at your changes.
 ### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md)  3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md) 4. [Binary Tree](https://github.com/moscarelloscott/moscarelloscott/blob/main/binarytree.md)
 # 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md)
  ## *Stack Introduction
-	Python Stacks what is stack?
+### Python Stacks what is stack?
 		 To start with it is a linear array structure of nodes stacked on top of each other that 
 		 operate in the last in first out pattern or LIFO
 		 Imagine a can of three tennis balls, the first one you put in goes to the bottom
@@ -15,7 +15,7 @@ You can click the Preview link to take a look at your changes.
 		 then the second and finally the first. 
  <img src="images/stackImg.png" width="75%" height="25%">
  
-	Why do we use stack?
+### Why do we use stack?
 		 Stack operates at O(1) on the big O scale making it very time efficient compared to a 
 		 slower typical array as well as is the easier and more simple method to hold data out 
 		 of the three example we are working with in this tutorial, it has a strict organizational 
@@ -23,7 +23,7 @@ You can click the Preview link to take a look at your changes.
 		 unlike the other methods which can pull from any place in their array.
 		 So,stack is best used when we want to maintain an organized directional flow.
 		 stack is a great method for backtracking step by step from the end to the beginning.
-	How do we add and remove objects?
+### How do we add and remove objects?
 		 The push operation is used to add objects by using the append command
 		 The pop operation is used to remove the last object entered into the stack by using
 		 the pop command.
@@ -79,7 +79,7 @@ You can click the Preview link to take a look at your changes.
 	   Joe was promoted from E1 to E3 after bootcamp, then he earn another promotion before
 	   being demoted back to an E3, after a year he earn back his E4 and finally reached an E5
 	   before being demoted again. Push and Pop each rank change until you reach the final output
-	   of E4
+	   of E4 
 	   
 Here is a chart to help you
 --------------------------
@@ -87,12 +87,14 @@ Type      | Rank
 --------- | -------- 
 Start     | E1       
 Promotion | E?      
-Promotion | E?      
-Demotion  | E?  
-input     | E?
-input     | E?
-input     | E?
+Promotion | E?     
+Promotion | E?       
+input     | E?    
+input     | E?    
+input     | E?    
 Demotion  | E4
+		
+	  Was it too easy? try to add Joe's name to the output and maybe look up the ranks title to add as well IE: E1 = private
 
     
 
