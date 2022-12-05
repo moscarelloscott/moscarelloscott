@@ -83,18 +83,18 @@ You can click the Preview link to take a look at your changes.
 	   
 Here is a chart to help you
 --------------------------
-Type      | Rank     
---------- | -------- 
-Start     | E1       
-Promotion | E?      
-Promotion | E?     
-Promotion | E?       
-input     | E?    
-input     | E?    
-input     | E?    
-Demotion  | E4
+Type      | Rank     | Title
+--------- | -------- | ------
+Start     | E1       | Pvt
+Promotion | E?       | PFC
+Promotion | E?       | LCpl
+Promotion | E?       | Cpl
+input     | E?       | LCpl
+input     | E?       |
+input     | E?       |
+Demotion  | E4       |
 		
-	  Was it too easy? try to add Joe's name to the output and maybe look up the ranks title to add as well IE: E1 = private
+	  Was it too easy? try to add Joe's name to the output and maybe look up the ranks title to add as well IE: E5 = Sgt
 
     
 
