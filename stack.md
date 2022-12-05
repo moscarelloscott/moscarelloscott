@@ -46,6 +46,7 @@ You can click the Preview link to take a look at your changes.
           print("again using append to insert the number 2")
           stackTutoral.append(2)
           print(stackTutoral)
+	  print("use str(stackTutoral[-1] to get the last object entered into the stack = " + str(stackTutoral[-1]))
           print("using pop we can remove the last object in the array")
           stackTutoral.pop()
           print(stackTutoral)
