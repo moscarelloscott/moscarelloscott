@@ -45,7 +45,7 @@ Remove last element                 | O(n)               | value 33
   
     *linked list Example code
     
-'''Python
+~~~Python
     print("The first step in creating a Linked List is to create a Node Class \nHere we named the Node Class LinkedListNode")
     print("We use the constructor function init and must include the word self in the parenthesis \nwe also automatically assigned the next node to none within this construtor function\n")
     print("class LinkedListNode: \n  def __init__(self, value, nextNode=None): \n  self.value = value \n  self.nextNode = nextNode \n")
@@ -80,7 +80,7 @@ while True:
     currentNode = currentNode.nextNode
     
 print("--end--")
-'''
+~~~
     *linked list Problem to solve
 
 
