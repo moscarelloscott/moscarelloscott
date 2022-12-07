@@ -46,40 +46,49 @@ Remove last element                 | O(n)               | value 33
     *linked list Example code
     
 ~~~Python
-    print("The first step in creating a Linked List is to create a Node Class \nHere we named the Node Class LinkedListNode")
-    print("We use the constructor function init and must include the word self in the parenthesis \nwe also automatically assigned the next node to none within this construtor function\n")
-    print("class LinkedListNode: \n  def __init__(self, value, nextNode=None): \n  self.value = value \n  self.nextNode = nextNode \n")
+    print("The first step in creating a Linked List is to create a Node Class 
+          \nHere we named the Node Class LinkedListNode")
+    print("We use the constructor function init and must include the word self in the parenthesis 
+           \nwe also automatically assigned the next node to none within this construtor function\n")
+    print("class LinkedListNode: \n  def __init__(self, value, nextNode=None): \n  self.value = value 
+          \n  self.nextNode = nextNode \n")
 
-class LinkedListNode:
-    def __init__(self, value, nextNode=None):
-        self.value = value
-        self.nextNode = nextNode
+    class LinkedListNode:
+       def __init__(self, value, nextNode=None):
+          self.value = value
+          self.nextNode = nextNode
 
-print ("Now we need to fill the empty nodes \nwe create node variables here to push the numbers 1 to 3 into 3 different nodes \n \n node1 = LinkedListNode(\"1\") \n node2 = LinkedListNode(\"2\") \n node3 = LinkedListNode(\"3\") \n")       
-node1 = LinkedListNode("1")
-node2 = LinkedListNode("2")
-node3 = LinkedListNode("3")
+    print ("Now we need to fill the empty nodes 
+           \nwe create node variables here to push the numbers 1 to 3 into 3 different nodes 
+           \n \n node1 = LinkedListNode(\"1\") \n node2 = LinkedListNode(\"2\") 
+           \n node3 = LinkedListNode(\"3\") \n")       
+    node1 = LinkedListNode("1")
+    node2 = LinkedListNode("2")
+    node3 = LinkedListNode("3")
 
-print("Now we assign each node to point to the next node \n  \n node1.nextNode = node2 \n node2.nextNode = node3 \n")
+    print("Now we assign each node to point to the next node \n  
+          \n node1.nextNode = node2 \n node2.nextNode = node3 \n")
 
-node1.nextNode = node2
-node2.nextNode = node3
+    node1.nextNode = node2
+    node2.nextNode = node3
 
-print("Assign the current node to be node 1 \n \n currentNode = node1\n")
-currentNode = node1
+    print("Assign the current node to be node 1 \n \n currentNode = node1\n")
+    currentNode = node1
 
-print("Finally we run a while loop to print out all the nodes with data inside them \nand the word NULL when we reach the empty node after the tail \n")
-print(" \n while True: \n   print (currentNode.value, \"->\") \n   if currentNode.nextNode is None: \n      print (\"NULL\") \n      break \n  currentNode = currentNode.nextNode \n")
-print("If you run this code the output will appear after this text\n")
+    print("Finally we run a while loop to print out all the nodes with data inside them
+           \nand the word NULL when we reach the empty node after the tail \n")
+    print(" \n while True: \n   print (currentNode.value, \"->\") \n   if currentNode.nextNode is None:
+            \n      print (\"NULL\") \n      break \n  currentNode = currentNode.nextNode \n")
+    print("If you run this code the output will appear after this text\n")
 
-while True:
-    print (currentNode.value, "->")
-    if currentNode.nextNode is None:
-        print ("NULL")
-        break
-    currentNode = currentNode.nextNode
+    while True:
+       print (currentNode.value, "->")
+       if currentNode.nextNode is None:
+          print ("NULL")
+          break
+       currentNode = currentNode.nextNode
     
-print("--end--")
+    print("--end--")
 ~~~
     *linked list Problem to solve
 
