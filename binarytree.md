@@ -12,7 +12,7 @@
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
     
     ~~~Python
-    #Binary Tree
+#Binary Tree
 # #Start by creating a Class Node
 
 class Node:
@@ -22,8 +22,7 @@ class Node:
         self.right = None
         self.data = data
     def PrintTree1(self):
-        print(self.data)
-        
+        print(self.data)        
     def insert(self, data):
         if self.data:
             if data < self.data:
@@ -55,7 +54,8 @@ class Node:
         return res    
                         
                 
-print("\n___________begining of code_______________\n")           
+print("\n___________begining of code_______________\n")   
+
 root = Node(10)
 root.PrintTree1()
 print("\nTraversing")
