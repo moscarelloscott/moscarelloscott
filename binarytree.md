@@ -12,7 +12,8 @@
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
 ________________________________________________________________
 
-    Just like the Linked List we must make a CLASS NODE for the Binary tree along with a CONSTRUCTOR function:
+    Just like the Linked List we must make a CLASS NODE for the Binary tree along with a CONSTRUCTOR function.
+    Notice in the Constructor we assign a left and right node to store data of none for now.
     
 ~~~Python
     #Binary Tree
@@ -23,6 +24,9 @@ ________________________________________________________________
             self.left = None
             self.right = None
             self.data = data
+~~~
+
+~~~Python
      def PrintTree1(self):
             print(self.data)        
      def insert(self, data):
