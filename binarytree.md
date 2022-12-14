@@ -64,7 +64,10 @@ ________________________________________________________________
                 res = self.InOrder(root.left)
                 res.append(root.data)
                 res = res + self.InOrder(root.right)       
-            return res    
+            return res   
+~~~
+
+~~~Python
    print("\n___________input and output code_______________\n")   
    root = Node(10)
    root.PrintTree1()
