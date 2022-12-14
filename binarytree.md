@@ -28,7 +28,11 @@ ________________________________________________________________
 
 ~~~Python
      def PrintTree1(self):
-            print(self.data)        
+            print(self.data)   
+~~~
+
+~~~Python
+    #traversing Tree
      def insert(self, data):
         if self.data:
             if data < self.data:
@@ -47,7 +51,7 @@ ________________________________________________________________
 
 ~~~Python
                 
-        #PRINT TREE
+        #Inorder TREE
         def PrintTree(self):
             if self.left:
             self.left.PrintTree()
