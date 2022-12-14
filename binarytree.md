@@ -5,7 +5,8 @@
     Unlike the stack and Linked List, Binary Trees are Non-Linear, 
     they still use Nodes like the Linked List but do not have a head or tail, 
     instead the tree will have a single root at the top and children or leaves 
-    at the bottom of the tree.
+    at the bottom of the tree. A leaf is any node that does not have a child,
+    so in this diagram we have 3 leaves.
     
    <img src="images/binary1.png" width= "90%" height="25%">
    
