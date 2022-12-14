@@ -8,7 +8,7 @@
     at the bottom of the tree. A leaf is any node that does not have a child,
     so in this diagram we have 3 leaves.
     
-   <img src="images/binary1.png" width= "90%" height="25%">
+   <img src="images/binary1.png" width= "50%" height="25%">  <img src="images/binary2.png" width= "50%" height="25%">
    
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
 ________________________________________________________________
