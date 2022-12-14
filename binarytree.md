@@ -95,7 +95,20 @@ ________________________________________________________________
    root.insert(18)
    root.insert(28)
    root.insert(23)
-   root.insert(25)
+   root.insert(25) 
+
+~~~ 
+                         20
+                      /       \
+                     16        24
+                    /  \      /   \
+                   3    18         28
+                                  /   \
+                                 23    
+                                   \
+                                     25
+
+~~~Python
    
    root.PrintTree()
    print("\nInOrder")
