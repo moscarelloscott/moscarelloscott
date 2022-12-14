@@ -36,6 +36,9 @@
                     self.right.insert(data)
             else:
                 self.data = data
+~~~
+
+~~~Python
                 
         #PRINT TREE
         def PrintTree(self):
