@@ -14,8 +14,7 @@
 ~~~Python
     #Binary Tree
     #Start by creating a Class Node
-
-    class Node:
+ class Node:
      #Constructor
      def __init__(self, data):
             self.left = None
