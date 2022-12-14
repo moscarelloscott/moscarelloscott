@@ -70,7 +70,7 @@ ________________________________________________________________
             return res   
 ~~~
     
-    Here we populate the tree and print out the data 
+    Here we populate the tree and print out the data by calling the corasponding function
     
 ~~~Python
    print("\n___________input and output code_______________\n")   
@@ -90,6 +90,9 @@ ________________________________________________________________
    print(root.InOrder(root))
    print("\n____________Ending of code__________________")
  ~~~
-    *Binary Tree Problem to solve
+___________________________________________________________________________________
+Now create a tree that will output  six numbers in a row and six numbers in a column
+both with the same root data and a leaf on the right side but the rest of the data
+must be different between the two tree types.
 
 [VIDEO](https://moscarelloscott.github.io/project/index.html)
