@@ -1,4 +1,6 @@
 
+<!--- Binary Tree
+--->
 ### 1. [Welcome](https://github.com/moscarelloscott/moscarelloscott/blob/main/CSE212.md) 2. [stack](https://github.com/moscarelloscott/moscarelloscott/blob/main/stack.md) 3. [linked list](https://github.com/moscarelloscott/moscarelloscott/blob/main/linkedlist.md)
 # 4. [Binary Tree]
 
@@ -7,6 +9,9 @@
     instead the tree will have a single root at the top and children or leaves 
     at the bottom of the tree. A leaf is any node that does not have a child,
     so in this diagram we have 3 leaves.
+    
+    Binary Trees are good to use when searching for data, the trees have the ability 
+    to insert, delete and traverse  the stored data.
     
    <img src="images/binary1.png" width= "45%" height="25%">  <img src="images/binary2.png" width= "45%" height="25%">
    
