@@ -82,6 +82,11 @@ ________________________________________________________________
    root.insert(16)
    root.insert(24)
    root.insert(3)
+   root.insert(18)
+   root.insert(28)
+   root.insert(23)
+   root.insert(25)
+   
    root.PrintTree()
    print("\nInOrder")
    root = Node(20)
