@@ -104,8 +104,15 @@ ________________________________________________________________
    root.insert(24)
    root.insert(3)
    print(root.InOrder(root))
-   print("\n____________Ending of code__________________")
+   print("\n____________Ending of code__________________")  
  ~~~
+                                   20
+                                  /   \
+                                 16    24
+                                /
+                               3
+                                 
+                              
 ___________________________________________________________________________________
 Now create a tree that will output  six numbers in a row and six numbers in a column
 both with the same root data and a leaf on the right side but the rest of the data
