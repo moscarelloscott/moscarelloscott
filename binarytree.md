@@ -25,12 +25,14 @@ ________________________________________________________________
             self.right = None
             self.data = data
 ~~~
-
+    Simple function to only fill the root of the tree by inputting 
+    root = Node(10) and then call the function root.PrintTree1()
 ~~~Python
      def PrintTree1(self):
             print(self.data)   
 ~~~
-
+    Here we are making a traversing tree placing the data into a column 
+    with the smallest ontop and largest on the bottom
 ~~~Python
     #traversing Tree
      def insert(self, data):
@@ -48,7 +50,8 @@ ________________________________________________________________
             else:
                 self.data = data
 ~~~
-
+    The Inorder tree also runs from smallest to largest 
+    but in a row instead of a column
 ~~~Python
                 
         #Inorder TREE
