@@ -11,6 +11,11 @@
    <img src="images/binary1.png" width= "45%" height="25%">  <img src="images/binary2.png" width= "45%" height="25%">
    
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
+    When populating the Tree, the top node is always the ROOT, all the nodes to the left of the root will
+    be smaller than the roots data and the nodes to the right will be larger than the root.
+    This is also true for placing the children after the parent, notice #1 "24" is larger than the root of "20" 
+    so it is placed in the node to the right, #2 "28" is larger than the parent node #1 "24, so it is placed
+    to the right however #3 "23 is smaller than the parent #2 "28 so it is placed to the left of #2.
 ________________________________________________________________
 
     Just like the Linked List we must make a CLASS NODE for the Binary tree along with a CONSTRUCTOR function.
