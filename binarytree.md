@@ -10,6 +10,8 @@
    <img src="images/binary1.png" width= "90%" height="25%">
    
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
+    ------------------------------------------------
+    Just like the Linked List we must make a CLASS NODE for the Binary tree along with a CONSTRUCTOR function:
     
 ~~~Python
     #Binary Tree
