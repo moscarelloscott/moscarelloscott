@@ -11,19 +11,19 @@
    
     In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
     
-    ~~~Python
-#Binary Tree
-# #Start by creating a Class Node
+~~~Python
+    #Binary Tree
+    #Start by creating a Class Node
 
-class Node:
-    #Constructor
-    def __init__(self, data):
-        self.left = None
-        self.right = None
-        self.data = data
-    def PrintTree1(self):
-        print(self.data)        
-    def insert(self, data):
+    class Node:
+     #Constructor
+     def __init__(self, data):
+            self.left = None
+            self.right = None
+            self.data = data
+     def PrintTree1(self):
+            print(self.data)        
+     def insert(self, data):
         if self.data:
             if data < self.data:
                 if self.left is None:
@@ -38,42 +38,37 @@ class Node:
             else:
                 self.data = data
                 
-#PRINT TREE
-    def PrintTree(self):
-        if self.left:
+        #PRINT TREE
+        def PrintTree(self):
+            if self.left:
             self.left.PrintTree()
         print(self.data)
         if self.right:
             self.right.PrintTree()
-    def InOrder(self, root):
-        res = []
-        if root:
-            res = self.InOrder(root.left)
-            res.append(root.data)
-            res = res + self.InOrder(root.right)       
-        return res    
-                        
-                
-print("\n___________begining of code_______________\n")   
-
-root = Node(10)
-root.PrintTree1()
-print("\nTraversing")
-root = Node(12)
-root.insert(6)
-root.insert(14)
-root.insert(3)
-root.PrintTree()
-print("\nInOrder")
-root = Node(12)
-root.insert(6)
-root.insert(14)
-root.insert(3)
-print(root.InOrder(root))
-
-print("\n____________Ending of code__________________")
-    
-    ~~~
+        def InOrder(self, root):
+            res = []
+            if root:
+                res = self.InOrder(root.left)
+                res.append(root.data)
+                res = res + self.InOrder(root.right)       
+            return res    
+        print("\n___________begining of code_______________\n")   
+        root = Node(10)
+        root.PrintTree1()
+        print("\nTraversing")
+        root = Node(12)
+        root.insert(6)
+        root.insert(14)
+        root.insert(3)
+        root.PrintTree()
+        print("\nInOrder")
+        root = Node(12)
+        root.insert(6)
+        root.insert(14)
+        root.insert(3)
+        print(root.InOrder(root))
+        print("\n____________Ending of code__________________")
+ ~~~
     *Binary Tree Problem to solve
 
 [VIDEO](https://moscarelloscott.github.io/project/index.html)
