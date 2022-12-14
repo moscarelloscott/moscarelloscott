@@ -9,7 +9,7 @@
     
    <img src="images/binary1.png" width= "90%" height="25%">
    
-    *Binary Tree Example code
+    In the example above #1 is a parent of #2 and # 2 is the child of #1, however # 2 is also the parent of #3
     *Binary Tree Problem to solve
 
 [VIDEO](https://moscarelloscott.github.io/project/index.html)
