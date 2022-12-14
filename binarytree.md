@@ -7,7 +7,7 @@
     instead the tree will have a single root at the top and children or leaves 
     at the bottom of the tree.
     
-   <img src="images/binary1.png">
+   <img src="images/binary1.png" width= "90%" height="25%>
    
     *Binary Tree Example code
     *Binary Tree Problem to solve
