@@ -70,7 +70,8 @@ ________________________________________________________________
             return res   
 ~~~
     
-
+    Here we populate the tree and print out the data 
+    
 ~~~Python
    print("\n___________input and output code_______________\n")   
    root = Node(10)
